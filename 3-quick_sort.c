@@ -2,6 +2,10 @@
 
 void swap_ints(int *a, int *b, int *array, size_t size)
 {
+void quick_sort(int *array, size_t size)
+{
+if (array == NULL || size < 2)
+return;
 int tmp;
 if (a == b)
 return;
