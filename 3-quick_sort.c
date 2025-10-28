@@ -1,6 +1,6 @@
 #include "sort.h"
 
-static void swap_ints(int *a, int *b, int *array, size_t size)
+void swap_ints(int *a, int *b, int *array, size_t size)
 {
 int tmp;
 if (a == b)
